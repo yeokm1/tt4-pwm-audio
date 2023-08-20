@@ -4,7 +4,7 @@
 <!-- Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.                   -->
 <!-- Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.   -->
 
-<Project Product="Vivado" Version="7" Minor="63" Path="E:/workspace/tt4-pwm-audio/covox-pwm/covox-pwm.xpr">
+<Project Product="Vivado" Version="7" Minor="63" Path="E:/OneDrive/git-projects/tt4-pwm-audio/covox-pwm/covox-pwm.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
     <Option Name="Id" Val="d04d6406ad44490b8231214898b63e58"/>
@@ -44,7 +44,7 @@
     <Option Name="SimulatorGccVersionRiviera" Val="9.3.0"/>
     <Option Name="SimulatorGccVersionActiveHdl" Val="9.3.0"/>
     <Option Name="BoardPart" Val="numato.com:mimas_a7_50t:part0:1.0"/>
-    <Option Name="BoardPartRepoPaths" Val="$PPRDIR/../../vivadoBSP"/>
+    <Option Name="BoardPartRepoPaths" Val="$PPRDIR/../../../../workspace/vivadoBSP"/>
     <Option Name="ActiveSimSet" Val="sim_1"/>
     <Option Name="DefaultLib" Val="xil_defaultlib"/>
     <Option Name="ProjectType" Val="Default"/>
