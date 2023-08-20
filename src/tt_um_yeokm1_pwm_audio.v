@@ -43,8 +43,9 @@ assign uo_out[4] = rst_n;
 assign uo_out[3] = clk;
 assign uo_out[2] = ena;
 
-assign uo_out[1] = fsdm_accumulator[8];
-assign uo_out[0] = (ui_in > pwm_cnt);
+// Check rst_n and ena are activated first
+assign uo_out[1] = rst_n && ena && fsdm_accumulator[8];
+assign uo_out[0] = rst_n && ena && (ui_in > pwm_cnt);
 
 // Sources
 // Standard PWM
